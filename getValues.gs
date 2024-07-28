@@ -45,13 +45,3 @@ function checkNA(){
     Logger.log('Sheet "Home" not found.');
   }
 }
-
-
-
-
-
-
-
-
-
-
