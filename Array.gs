@@ -25,7 +25,7 @@ function createNewGoogleDocs() {
 
   var homesheet = ss.getSheetByName("Home");
   var lrhome = homesheet.getLastRow();
-  var assigneeNameRange = homesheet.getRange(2, 4, lrhome - 1).getValues();
+  var assigneeNameRange = homesheet.getRange(2, 3, lrhome - 1).getValues();
   var keyIDRange = homesheet.getRange(2, 1, lrhome - 1).getValues();
 
   const documentName = 'New Progression Docs';
@@ -207,24 +207,3 @@ function checkNA(){
   //     //this.comparisionData();
   //   })
   // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
